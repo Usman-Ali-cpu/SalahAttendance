@@ -9,18 +9,18 @@ public class MyData {
     private int Maghrib;
     private int Esha;
     private String date;
-    
+
     public MyData() {
         // default constructor 
     }
 
     public MyData(String dt, int Faj, int zh, int asr, int mag, int es) {
-        this.date = dt;
         this.Fajar = Faj;
         this.Zuhr = zh;
         this.Asar = asr;
         this.Maghrib = mag;
         this.Esha = es;
+        this.date = dt;
     }
 
     
